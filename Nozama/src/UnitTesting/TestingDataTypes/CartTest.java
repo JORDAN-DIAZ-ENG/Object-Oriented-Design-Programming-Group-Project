@@ -1,7 +1,8 @@
-package Model;
+package UnitTesting.TestingDataTypes;
 import DataTypes.ApplyFiveOff;
 import DataTypes.ICoupon;
 import DataTypes.Item;
+import Model.Cart;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

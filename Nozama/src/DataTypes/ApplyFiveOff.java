@@ -7,7 +7,7 @@ package DataTypes;
  */
 public class ApplyFiveOff extends CouponDecorator {
 
-    ICoupon cart;
+
 
     /**
      * Constructor: Defines instance of ICoupon

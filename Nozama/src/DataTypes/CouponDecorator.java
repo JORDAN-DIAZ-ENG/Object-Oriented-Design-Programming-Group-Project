@@ -5,5 +5,6 @@ package DataTypes;
  * @author: Jamar
  */
 public abstract class CouponDecorator implements ICoupon {
+    ICoupon cart;
     public abstract float getTotal();
 }
