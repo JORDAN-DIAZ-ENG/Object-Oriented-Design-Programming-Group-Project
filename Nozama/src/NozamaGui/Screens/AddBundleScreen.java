@@ -21,7 +21,6 @@ public class AddBundleScreen extends JDialog{
     private JTextField vendorTextField;
     private JButton addItemButton;
     private JLabel infoText;
-    private JSpinner numberOfItemsSpinner;
     private JPanel mainPanel;
     private JButton submitBundleButton;
 
@@ -71,8 +70,6 @@ public class AddBundleScreen extends JDialog{
             {
 
                 Integer temp = Integer.parseInt(instance.getLastID()) + 1;
-
-                numberOfItems = (int) numberOfItemsSpinner.getValue();
 
                 AddItemScreen screen = new AddItemScreen(account, accountDashboard, true,AddBundleScreen.this);
 
